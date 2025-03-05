@@ -8,4 +8,4 @@ def random_response(message, history):
 demo = gr.ChatInterface(random_response, title="Qwen2")
 
 
-demo.launch()
+demo.launch(inbrowser=True)

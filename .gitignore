@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -21,26 +20,33 @@ wheels/
 .installed.cfg
 *.egg
 
-# 项目特定文件
-config.py
-.env
+# Virtual Environment
+venv/
+env/
+ENV/
 
-# IDE相关
+# IDE
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# 系统文件
+# Misc
 .DS_Store
-Thumbs.db
+.env
+.env.local
+.env.*.local
 
-# 日志文件
+# Logs
 *.log
+logs/
 
-# 虚拟环境
-venv/
-ENV/
+# 项目特定文件
+config.py
+.env
+
+# 系统文件
+Thumbs.db
 
 # 其他
 *.bak
