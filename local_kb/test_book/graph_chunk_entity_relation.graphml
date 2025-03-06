@@ -10,390 +10,419 @@
   <graph edgedefault="undirected">
     <node id="幽影林">
       <data key="d0">geo</data>
-      <data key="d1">An ancient forest shrouded in mist named 'Yao Ying Lin', which is said to hide a secret that can only be uncovered by those with purity and courage.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d1">The mystical forest where Aly's adventure takes place, a hidden kingdom surrounded by mist.&lt;SEP&gt;幽影林是一片被迷雾笼罩的古老森林，传说中隐藏着古老的秘密，是探险者寻找的目标。</data>
+      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </node>
     <node id="艾莉">
       <data key="d0">person</data>
-      <data key="d1">A young girl with golden hair and bright blue eyes, known for her lively and brave personality, who inherits her father's courage and curiosity.&lt;SEP&gt;Aili embarks on a true adventure journey and overcomes various tests, eventually revealing the secrets of the ancient kingdom.</data>
-      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d1">Aly, the protagonist who embarks on an adventure in the forest.&lt;SEP&gt;艾莉是一位性格活泼而勇敢的少女，她的父亲是一位著名的探险家，她决心揭开幽影林的秘密。</data>
+      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </node>
     <node id="艾莉的父亲">
       <data key="d0">person</data>
-      <data key="d1">A renowned explorer who attempted to enter Yao Ying Lin in his youth but always returned without success, leaving an old backpack and some provisions for his daughter.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d1">艾莉的父亲是一位著名的探险家，多次尝试进入幽影林，但每次都无功而返，他的故事激励了艾莉。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </node>
     <node id="小镇">
       <data key="d0">geo</data>
-      <data key="d1">A small town on the edge of the forest, from where Aili sets out on her journey to uncover the secret of Yao Ying Lin.&lt;SEP&gt;The town is where Aili returns after her adventure, becoming a hero and continuing her journey from there.</data>
-      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </node>
-    <node id="石碑">
-      <data key="d0">event</data>
-      <data key="d1">An ancient stone tablet with strange symbols that lead Aili to a hidden underground passage after it emits a soft glow.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </node>
-    <node id="古老遗迹">
-      <data key="d0">category</data>
-      <data key="d1">An ancient site filled with ancient books, magical artifacts, and strange paintings of mythical creatures, indicating the historical significance of Yao Ying Lin.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </node>
-    <node id="水晶球">
-      <data key="d0">object</data>
-      <data key="d1">A large crystal ball that shows a blurred figure and a wise elder, suggesting the presence of ancient wisdom and a guardian of the forest.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </node>
-    <node id="森林的守护者">
-      <data key="d0">person</data>
-      <data key="d1">A wise elder who has been protecting the secret of Yao Ying Lin for centuries and gives Aili the task of finding a cursed lake and a crystal to dispel the mist.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </node>
-    <node id="被诅咒的湖">
-      <data key="d0">event</data>
-      <data key="d1">A cursed lake in the forest that holds a crystal capable of dispelling the mist and revealing the forest's secret.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </node>
-    <node id="考验">
-      <data key="d0">event</data>
-      <data key="d1">Three tests that Aili must pass to prove her courage, wisdom, and kindness in order to find the crystal and uncover the secret of Yao Ying Lin.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d1">A small town where Aly returns with the crystal, becoming a hero to the townspeople.&lt;SEP&gt;小镇位于幽影林边缘，是艾莉出发的地点，也是她故事的起点。</data>
+      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </node>
     <node id="迷雾">
       <data key="d0">category</data>
-      <data key="d1">The fog is a mysterious phenomenon that surrounds the ancient kingdom and is dispelled by Aili using the crystal.&lt;SEP&gt;The mist that shrouds the ancient forest, creating an enigmatic atmosphere and making it difficult for adventurers to navigate.</data>
-      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d1">The mist that surrounds the ancient kingdom and is dispersed by Aly after obtaining the crystal.&lt;SEP&gt;迷雾是幽影林的一个特征，它模糊了视线，增加了探险的难度，也是故事中的一个重要元素。</data>
+      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </node>
-    <node id="探险者">
+    <node id="石碑">
+      <data key="d0">geo</data>
+      <data key="d1">石碑位于森林中的一个开阔空地，上面刻有奇怪的符号，是艾莉寻找线索的地方。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="水晶球">
+      <data key="d0">technology</data>
+      <data key="d1">水晶球在故事中扮演着重要的角色，它揭示了幽影林的秘密，并指引艾莉继续探险。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="森林的守护者">
       <data key="d0">person</data>
-      <data key="d1">Adventurers who have ventured into the misty forest, many of whom have not returned, contributing to the legend of the forest.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d1">森林的守护者是一位神秘的长袍老人，他告诉艾莉解开幽影林秘密的方法。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </node>
-    <node id="鸟鸣">
-      <data key="d0">event</data>
-      <data key="d1">The sound of birds chirping, one of the first sensory experiences Aili encounters upon entering the forest, indicating a natural setting.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+    <node id="被诅咒的湖">
+      <data key="d0">geo</data>
+      <data key="d1">被诅咒的湖是幽影林中的一个地点，湖中的水晶能够驱散迷雾，是解开秘密的关键。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </node>
-    <node id="树叶的沙沙声">
-      <data key="d0">event</data>
-      <data key="d1">The rustling sound of leaves, another natural sound Aili hears upon entering the forest, adding to the immersive atmosphere.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+    <node id="考验">
+      <data key="d0">category</data>
+      <data key="d1">考验是艾莉需要通过的一系列挑战，以证明她的勇气、智慧和善良，找到驱散迷雾的水晶。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="旧背包">
+      <data key="d0">object</data>
+      <data key="d1">艾莉背上了父亲留下的旧背包，这是她探险的工具之一。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="干粮">
+      <data key="d0">object</data>
+      <data key="d1">艾莉带上了干粮，以备在探险过程中使用。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="水">
+      <data key="d0">object</data>
+      <data key="d1">艾莉带上了水，这是她在森林中生存的重要资源。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="灌木丛">
+      <data key="d0">geo</data>
+      <data key="d1">灌木丛是艾莉在森林中遇到的自然环境，她需要拨开灌木才能前行。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </node>
     <node id="小兔子">
       <data key="d0">animal</data>
-      <data key="d1">A small, fluffy rabbit that Aili encounters, seemingly unafraid and possibly leading her to clues about the forest.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </node>
-    <node id="石阶">
-      <data key="d0">object</data>
-      <data key="d1">Stairs leading down to the underground passage discovered by Aili after the stone tablet emits a soft glow, suggesting an ancient structure.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </node>
-    <node id="魔法道具">
-      <data key="d0">category</data>
-      <data key="d1">Magical artifacts found in the underground chamber, indicating the presence of ancient magic and rituals in Yao Ying Lin.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </node>
-    <node id="奇怪的画像">
-      <data key="d0">category</data>
-      <data key="d1">Strange paintings depicting various mythical creatures, adding to the mystical and ancient feel of the underground chamber.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d1">艾莉遇到了一只小兔子，它似乎在引导艾莉前进。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </node>
     <node id="山谷">
       <data key="d0">geo</data>
-      <data key="d1">A valley Aili encounters on her journey, which includes a dangerous bridge over a fast-flowing river, a challenge she must overcome.&lt;SEP&gt;The valley is a location where Aili encounters a river and a dangerous bridge, representing her first challenge.</data>
-      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d1">A valley Aly encounters with a fast-flowing river, the first obstacle on her journey.&lt;SEP&gt;艾莉来到了一个山谷，这是她在探险过程中经过的地点。</data>
+      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="湍急的河流">
+      <data key="d0">geo</data>
+      <data key="d1">山谷中有一条湍急的河流，艾莉需要跨过它继续探险。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="石桥">
+      <data key="d0">geo</data>
+      <data key="d1">A stone bridge covered in thorns, the first challenge Aly must overcome in the valley.&lt;SEP&gt;石桥横跨在河流上，但桥上布满了荆棘，给艾莉带来了挑战。</data>
+      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </node>
     <node id="荆棘">
-      <data key="d0">category</data>
-      <data key="d1">The thorny vines on the bridge are a physical obstacle Aili must navigate to cross the river.&lt;SEP&gt;Thorny bushes covering the bridge Aili must cross, representing a physical and symbolic obstacle in her quest.</data>
-      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </node>
-    <node id="水晶">
       <data key="d0">object</data>
-      <data key="d1">A crystal mentioned by the guardian of the forest as the key to dispelling the mist and revealing the secret of Yao Ying Lin.&lt;SEP&gt;The crystal is a magical artifact that Aili receives after helping the bird, representing a reward for her kindness and tests.</data>
-      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d1">荆棘是石桥上的障碍，艾莉需要小心通过。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="画像">
+      <data key="d0">object</data>
+      <data key="d1">地下室中的画像描绘着各种奇幻生物，是古老遗迹的一部分。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="魔法道具">
+      <data key="d0">object</data>
+      <data key="d1">地下室中摆放着许多古老的魔法道具，是古老遗迹的组成部分。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="古老的书籍">
+      <data key="d0">object</data>
+      <data key="d1">地下室中存放着许多古老的书籍，是古老遗迹的一部分。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="吟唱古老的咒语">
+      <data key="d0">event</data>
+      <data key="d1">有人在地下室中吟唱古老的咒语，这是故事中的一个神秘事件。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="模糊的身影">
+      <data key="d0">person</data>
+      <data key="d1">水晶球中的模糊身影最终清晰起来，是一位神秘的长袍老人。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="长袍">
+      <data key="d0">object</data>
+      <data key="d1">森林的守护者穿着长袍，这是他的服装特征。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="驱散迷雾的水晶">
+      <data key="d0">object</data>
+      <data key="d1">驱散迷雾的水晶是解开幽影林秘密的关键，藏于被诅咒的湖中。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </node>
     <node id="诅咒">
       <data key="d0">category</data>
-      <data key="d1">The curse placed on the lake, which makes it a dangerous and significant part of Aili's quest.</data>
-      <data key="d2">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d1">被诅咒的湖中的水晶带有诅咒，是解开幽影林秘密的障碍。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="水晶球中的光芒">
+      <data key="d0">event</data>
+      <data key="d1">水晶球散发出光芒，这是故事中的一个神秘事件。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="风">
+      <data key="d0">event</data>
+      <data key="d1">一阵风吹散了迷雾，露出了隐藏在地下的入口。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="地下室的入口">
+      <data key="d0">geo</data>
+      <data key="d1">地下室的入口是艾莉发现的一个隐藏的通道。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="神秘">
+      <data key="d0">category</data>
+      <data key="d1">故事中充满了神秘元素，如古老的遗迹、魔法道具和神秘的守护者。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="冒险之旅">
+      <data key="d0">event</data>
+      <data key="d1">艾莉的探险之旅是故事的主线，她不断地面对挑战和发现。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="勇气、智慧和善良">
+      <data key="d0">category</data>
+      <data key="d1">艾莉需要通过考验来证明她的勇气、智慧和善良，这是她成功的关键。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="证明">
+      <data key="d0">category</data>
+      <data key="d1">艾莉需要通过考验来证明自己的品质，以获得成功。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="品质">
+      <data key="d0">category</data>
+      <data key="d1">艾莉的品质是她在探险中需要证明的，这些品质将帮助她解开幽影林的秘密。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="资源">
+      <data key="d0">category</data>
+      <data key="d1">艾莉在探险中需要使用资源，如干粮、水和背包，以维持生存。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </node>
+    <node id="自然环境">
+      <data key="d0">category</data>
+      <data key="d1">艾莉在探险中遇到的自然环境，如森林、山谷和河流，对她的旅程构成了挑战。</data>
+      <data key="d2">chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </node>
     <node id="守护者">
       <data key="d0">person</data>
-      <data key="d1">The guardian is a character who reveals the beginning of the adventure and then disappears from the crystal ball.</data>
+      <data key="d1">A guardian who reveals the beginning of an adventure and disappears after sharing the quest.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
     <node id="森林">
       <data key="d0">geo</data>
-      <data key="d1">The forest is a location where Aili begins her adventure and encounters the first test.</data>
+      <data key="d1">The forest where Aly begins her adventure and faces the first test on the stone bridge.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
-    <node id="石桥">
-      <data key="d0">geo</data>
-      <data key="d1">The stone bridge is a challenging location in the valley that Aili must cross, featuring thorny vines and a giant spider.</data>
-      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
-    </node>
-    <node id="蜘蛛">
+    <node id="巨大的蜘蛛">
       <data key="d0">person</data>
-      <data key="d1">The giant spider is a creature Aili encounters on the bridge, representing a test of courage.</data>
+      <data key="d1">A large spider encountered by Aly on the stone bridge, representing a test of courage.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
     <node id="短剑">
       <data key="d0">technology</data>
-      <data key="d1">The short sword is a weapon Aili uses to defeat the giant spider, representing her courage.</data>
+      <data key="d1">A short sword given to Aly by her father, used in the battle against the spider.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
     <node id="花园">
       <data key="d0">geo</data>
-      <data key="d1">The mysterious garden is a location where Aili encounters a riddle, representing a test of wisdom.</data>
+      <data key="d1">A mysterious garden Aly enters, the site of a test of wisdom.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
     <node id="花朵">
       <data key="d0">category</data>
-      <data key="d1">The flowers in the garden are diverse and have different colors and shapes, representing a puzzle that Aili must solve.</data>
+      <data key="d1">Various flowers in the garden, which represent a puzzle Aly needs to solve to pass the test of wisdom.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
     <node id="石门">
       <data key="d0">geo</data>
-      <data key="d1">The hidden stone door is opened after Aili solves the riddle, representing a successful test of wisdom.</data>
+      <data key="d1">A hidden stone door that opens after Aly solves the puzzle in the garden.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
-    <node id="湖边">
+    <node id="湖">
       <data key="d0">geo</data>
-      <data key="d1">The lake's edge is a location where Aili encounters a wounded bird, representing a test of kindness.</data>
+      <data key="d1">A serene lake Aly arrives at, the site of a test of kindness.</data>
+      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
+    </node>
+    <node id="水晶">
+      <data key="d0">technology</data>
+      <data key="d1">A glowing crystal in the middle of the lake, which Aly receives as a reward for passing all the tests.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
     <node id="小鸟">
       <data key="d0">person</data>
-      <data key="d1">The wounded bird is a character that tests Aili's kindness and rewards her with a crystal.</data>
+      <data key="d1">A wounded bird that tests Aly's kindness and rewards her with the crystal.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
     <node id="古老王国">
       <data key="d0">geo</data>
-      <data key="d1">The ancient kingdom is a hidden location in the forest that Aili reveals after dispelling the fog, representing the ultimate destination of her journey.</data>
-      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
-    </node>
-    <node id="地下室">
-      <data key="d0">geo</data>
-      <data key="d1">The basement is the starting point of Aili's adventure where she receives guidance from the guardian.</data>
-      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
-    </node>
-    <node id="湍急的河流">
-      <data key="d0">geo</data>
-      <data key="d1">The swift river is a natural feature in the valley where Aili encounters her first challenge.</data>
-      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
-    </node>
-    <node id="药草">
-      <data key="d0">technology</data>
-      <data key="d1">The herbs are a tool Aili uses to bandage the wounded bird, representing her kindness and resourcefulness.</data>
+      <data key="d1">An ancient kingdom that was shrouded in mist, revealed by Aly after passing all the tests.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
     <node id="人们">
       <data key="d0">person</data>
-      <data key="d1">The people of the town are characters who celebrate Aili's return and recognize her as a hero.</data>
+      <data key="d1">The townspeople who celebrate Aly's return and her success in her adventure.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
-    <node id="冒险旅程">
+    <node id="药草">
+      <data key="d0">category</data>
+      <data key="d1">Herbal medicine Aly uses to tend to the wounded bird, representing her act of kindness.</data>
+      <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
+    </node>
+    <node id="灾难">
       <data key="d0">event</data>
-      <data key="d1">The adventure journey is the overarching narrative of Aili's story, filled with challenges and discoveries.</data>
+      <data key="d1">A catastrophic event that caused the ancient kingdom to be shrouded in mist and forgotten.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
     <node id="未知和奇迹">
       <data key="d0">category</data>
-      <data key="d1">The unknown and wonders represent the goals of Aili's journey, indicating her quest for new experiences and discoveries.</data>
+      <data key="d1">The unknown and wonders that Aly continues to explore in her journey after uncovering the ancient kingdom.</data>
       <data key="d2">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </node>
     <edge source="幽影林" target="艾莉">
-      <data key="d3">8.0</data>
-      <data key="d4">Aili embarks on a journey to Yao Ying Lin to uncover its secret, reflecting her determination and bravery."|&gt;"quest, mystery</data>
-      <data key="d5">8</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d3">16.0</data>
+      <data key="d4">Aly's adventure takes place within the mystical forest, which is the setting of her trials."|&gt;"adventure, setting&lt;SEP&gt;艾莉的目标是揭开幽影林的秘密，她的冒险之旅从这里开始。</data>
+      <data key="d5">8&lt;SEP&gt;exploration, mystery</data>
+      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </edge>
-    <edge source="幽影林" target="古老遗迹">
-      <data key="d3">9.0</data>
-      <data key="d4">The ancient site in Yao Ying Lin is a representation of the forest's historical significance and its secret."|&gt;"historical significance, secret</data>
-      <data key="d5">9</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+    <edge source="幽影林" target="迷雾">
+      <data key="d3">5.0</data>
+      <data key="d4">幽影林被迷雾笼罩，迷雾是森林的一个特征，增加了探险的难度。</data>
+      <data key="d5">enigma, challenge</data>
+      <data key="d6">chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </edge>
     <edge source="艾莉" target="艾莉的父亲">
       <data key="d3">7.0</data>
-      <data key="d4">Aili inherits her father's courage and curiosity, which motivates her to uncover the secret of Yao Ying Lin."|&gt;"inheritance, legacy</data>
-      <data key="d5">7</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d4">艾莉继承了父亲的勇气和好奇心，决心揭开幽影林的秘密，这是她父亲的遗愿。</data>
+      <data key="d5">inheritance, legacy</data>
+      <data key="d6">chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </edge>
-    <edge source="艾莉" target="鸟鸣">
-      <data key="d3">6.0</data>
-      <data key="d4">The sound of birds chirping is one of the first experiences Aili has upon entering the forest, setting the scene for her adventure."|&gt;"first experience, setting</data>
-      <data key="d5">6</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+    <edge source="艾莉" target="小镇">
+      <data key="d3">14.0</data>
+      <data key="d4">Aly returns to the small town, where she is celebrated by the townspeople."|&gt;"return, celebration&lt;SEP&gt;艾莉从小镇出发，踏上了前往幽影林的旅程，小镇是她的起点。</data>
+      <data key="d5">8&lt;SEP&gt;departure, origin</data>
+      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff&lt;SEP&gt;chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </edge>
-    <edge source="艾莉" target="树叶的沙沙声">
-      <data key="d3">5.0</data>
-      <data key="d4">The rustling sound of leaves is another natural sound Aili hears, adding to the immersive atmosphere of her journey."|&gt;"immersive atmosphere, journey</data>
-      <data key="d5">5</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+    <edge source="艾莉" target="石碑">
+      <data key="d3">9.0</data>
+      <data key="d4">艾莉在石碑上找到了线索，石碑是她在森林中寻找秘密的关键地点。</data>
+      <data key="d5">clue, discovery</data>
+      <data key="d6">chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </edge>
-    <edge source="艾莉" target="小兔子">
+    <edge source="艾莉" target="水晶球">
+      <data key="d3">10.0</data>
+      <data key="d4">水晶球揭示了幽影林的秘密，是艾莉探险旅程中的一个重要转折点。</data>
+      <data key="d5">revelation, guidance</data>
+      <data key="d6">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </edge>
+    <edge source="艾莉" target="森林的守护者">
       <data key="d3">8.0</data>
-      <data key="d4">Aili encounters a small rabbit that seems to be leading her to clues, suggesting the rabbit might be a guide or a sign."|&gt;"encounter, guide</data>
-      <data key="d5">8</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d4">艾莉遇到了森林的守护者，他提供了解开幽影林秘密的方法。</data>
+      <data key="d5">encounter, wisdom</data>
+      <data key="d6">chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </edge>
-    <edge source="艾莉" target="山谷">
+    <edge source="艾莉" target="被诅咒的湖">
+      <data key="d3">9.0</data>
+      <data key="d4">艾莉需要找到被诅咒的湖中的水晶，这是解开幽影林秘密的关键。</data>
+      <data key="d5">quest, key</data>
+      <data key="d6">chunk-ce34dc953efbfd5620368eab06c6f992</data>
+    </edge>
+    <edge source="艾莉" target="考验">
       <data key="d3">7.0</data>
-      <data key="d4">Aili encounters a valley on her journey, which includes a dangerous bridge, adding to the challenges she faces."|&gt;"challenge, journey</data>
-      <data key="d5">7</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d4">艾莉需要通过考验来证明自己的品质，以找到驱散迷雾的水晶。</data>
+      <data key="d5">challenge, proof</data>
+      <data key="d6">chunk-ce34dc953efbfd5620368eab06c6f992</data>
     </edge>
     <edge source="艾莉" target="守护者">
       <data key="d3">8.0</data>
-      <data key="d4">Aili is guided by the guardian to begin her adventure, and the guardian disappears after revealing the journey's start.</data>
-      <data key="d5">guide, initiation</data>
+      <data key="d4">The guardian initiates Aly's adventure and is responsible for her journey, guiding her through the challenges."|&gt;"initiation, guidance</data>
+      <data key="d5">8</data>
       <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </edge>
     <edge source="艾莉" target="森林">
       <data key="d3">7.0</data>
-      <data key="d4">Aili starts her adventure in the forest, facing her first test, which symbolizes the beginning of her journey.</data>
-      <data key="d5">adventure start, first test</data>
+      <data key="d4">Aly embarks on her adventure in the forest, which is the setting for her first challenge."|&gt;"adventure start, setting</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
+    </edge>
+    <edge source="艾莉" target="山谷">
+      <data key="d3">6.0</data>
+      <data key="d4">Aly encounters the valley, which contains the first obstacle she must overcome on her journey."|&gt;"challenge, journey continuation</data>
+      <data key="d5">6</data>
       <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </edge>
     <edge source="艾莉" target="石桥">
       <data key="d3">9.0</data>
-      <data key="d4">Aili faces the challenge of crossing the dangerous stone bridge, which tests her courage and leads to the defeat of the spider.</data>
-      <data key="d5">courage test, overcoming obstacle</data>
+      <data key="d4">Aly faces the test of courage by crossing the dangerous stone bridge."|&gt;"courage test, challenge overcome</data>
+      <data key="d5">9</data>
+      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
+    </edge>
+    <edge source="艾莉" target="巨大的蜘蛛">
+      <data key="d3">10.0</data>
+      <data key="d4">Aly overcomes the spider's challenge on the bridge, proving her courage."|&gt;"courage test, victory</data>
+      <data key="d5">10</data>
+      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
+    </edge>
+    <edge source="艾莉" target="短剑">
+      <data key="d3">8.0</data>
+      <data key="d4">Aly uses the short sword given to her by her father to fight the spider."|&gt;"tool use, battle</data>
+      <data key="d5">8</data>
       <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </edge>
     <edge source="艾莉" target="花园">
-      <data key="d3">8.0</data>
-      <data key="d4">Aili encounters the riddle in the mysterious garden, which represents a test of her wisdom, solved by rearranging the flowers.</data>
-      <data key="d5">wisdom test, puzzle resolution</data>
+      <data key="d3">7.0</data>
+      <data key="d4">Aly arrives at the garden, which contains the second test of wisdom."|&gt;"test of wisdom, location</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
+    </edge>
+    <edge source="艾莉" target="花朵">
+      <data key="d3">9.0</data>
+      <data key="d4">Aly solves the puzzle involving the flowers in the garden."|&gt;"puzzle solving, wisdom test</data>
+      <data key="d5">9</data>
       <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </edge>
     <edge source="艾莉" target="石门">
-      <data key="d3">10.0</data>
-      <data key="d4">Aili solves the riddle and is rewarded with the crystal, which opens the hidden stone door, symbolizing the completion of the wisdom test.</data>
-      <data key="d5">wisdom reward, hidden door</data>
+      <data key="d3">8.0</data>
+      <data key="d4">After solving the puzzle, Aly finds the hidden stone door in the garden."|&gt;"solution, hidden door</data>
+      <data key="d5">8</data>
       <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </edge>
-    <edge source="艾莉" target="湖边">
+    <edge source="艾莉" target="湖">
+      <data key="d3">10.0</data>
+      <data key="d4">Aly faces the test of kindness by helping the wounded bird."|&gt;"kindness test, action</data>
+      <data key="d5">10</data>
+      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
+    </edge>
+    <edge source="艾莉" target="水晶">
       <data key="d3">9.0</data>
-      <data key="d4">Aili shows kindness by helping the wounded bird, which leads to the bird taking the crystal and flying to her, representing the kindness test.</data>
-      <data key="d5">kindness test, reward</data>
+      <data key="d4">Aly receives the crystal as a reward for her kindness."|&gt;"reward, kindness</data>
+      <data key="d5">9</data>
       <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </edge>
     <edge source="艾莉" target="古老王国">
-      <data key="d3">10.0</data>
-      <data key="d4">Aili uses the crystal to dispel the fog and reveal the ancient kingdom, completing her journey and revealing the hidden secret.</data>
-      <data key="d5">journey completion, revealing secret</data>
-      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
-    </edge>
-    <edge source="艾莉" target="地下室">
-      <data key="d3">7.0</data>
-      <data key="d4">Aili receives guidance from the guardian in the basement, marking the beginning of her adventure.</data>
-      <data key="d5">adventure start, guidance</data>
-      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
-    </edge>
-    <edge source="艾莉" target="湍急的河流">
-      <data key="d3">6.0</data>
-      <data key="d4">Aili encounters the swift river as part of her journey, symbolizing her progress and the challenges ahead.</data>
-      <data key="d5">progress, natural obstacle</data>
-      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
-    </edge>
-    <edge source="艾莉" target="荆棘">
       <data key="d3">8.0</data>
-      <data key="d4">Aili must navigate the thorny vines on the bridge to reach the other side, representing a physical challenge.</data>
-      <data key="d5">physical challenge, perseverance</data>
+      <data key="d4">Aly uncovers the ancient kingdom after passing all the tests, revealing the true nature of the forest."|&gt;"reveal, discovery</data>
+      <data key="d5">8</data>
+      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
+    </edge>
+    <edge source="艾莉" target="人们">
+      <data key="d3">9.0</data>
+      <data key="d4">The townspeople celebrate Aly for her heroism and successful adventure."|&gt;"celebration, heroism</data>
+      <data key="d5">9</data>
       <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </edge>
     <edge source="艾莉" target="药草">
-      <data key="d3">7.0</data>
-      <data key="d4">Aili uses herbs to help the wounded bird, showcasing her resourcefulness and compassion.</data>
-      <data key="d5">resourcefulness, compassion</data>
-      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
-    </edge>
-    <edge source="艾莉" target="迷雾">
       <data key="d3">9.0</data>
-      <data key="d4">Aili dispels the fog with the crystal, revealing the ancient kingdom and completing her journey.</data>
-      <data key="d5">mystery resolution, journey completion</data>
-      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
-    </edge>
-    <edge source="艾莉" target="小镇">
-      <data key="d3">8.0</data>
-      <data key="d4">Aili returns to the town as a hero, where she is celebrated by the people.</data>
-      <data key="d5">heroic return, celebration</data>
-      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
-    </edge>
-    <edge source="艾莉" target="冒险旅程">
-      <data key="d3">10.0</data>
-      <data key="d4">The adventure journey is the overarching narrative that guides Aili's actions and decisions throughout the story.</data>
-      <data key="d5">narrative guide, journey progression</data>
+      <data key="d4">Aly uses herbal medicine to care for the wounded bird, demonstrating her kindness."|&gt;"care, kindness</data>
+      <data key="d5">9</data>
       <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </edge>
     <edge source="艾莉" target="未知和奇迹">
-      <data key="d3">9.0</data>
-      <data key="d4">Aili's journey is driven by her quest for the unknown and wonders, which are the ultimate goals of her adventure.</data>
-      <data key="d5">quest, ultimate goal</data>
+      <data key="d3">7.0</data>
+      <data key="d4">Aly continues her journey in search of the unknown and wonders, driven by her curiosity."|&gt;"journey, curiosity</data>
+      <data key="d5">7</data>
       <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </edge>
-    <edge source="石碑" target="古老遗迹">
-      <data key="d3">8.0</data>
-      <data key="d4">The ancient stone tablet leads Aili to the ancient site, revealing the hidden underground passage."|&gt;"clue, discovery</data>
-      <data key="d5">8</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </edge>
-    <edge source="石碑" target="石阶">
+    <edge source="迷雾" target="古老王国">
       <data key="d3">7.0</data>
-      <data key="d4">The stairs to the underground passage are revealed after the stone tablet emits a soft glow, indicating a connection between the two."|&gt;"connection, revelation</data>
+      <data key="d4">The ancient kingdom is surrounded by mist, which is dispersed by Aly's action, revealing the kingdom."|&gt;"dispersion, reveal</data>
       <data key="d5">7</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </edge>
-    <edge source="古老遗迹" target="魔法道具">
-      <data key="d3">8.0</data>
-      <data key="d4">The magical artifacts in the underground chamber are part of the ancient site, indicating the presence of ancient magic practices."|&gt;"ancient magic, site</data>
-      <data key="d5">8</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </edge>
-    <edge source="古老遗迹" target="奇怪的画像">
-      <data key="d3">8.0</data>
-      <data key="d4">The strange paintings in the underground chamber are part of the ancient site, contributing to the mystical atmosphere."|&gt;"mystical atmosphere, site</data>
-      <data key="d5">8</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </edge>
-    <edge source="水晶球" target="森林的守护者">
-      <data key="d3">10.0</data>
-      <data key="d4">The wise elder in the crystal ball is the guardian of Yao Ying Lin, who provides Aili with guidance to find the crystal."|&gt;"guardian, guidance</data>
-      <data key="d5">10</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </edge>
-    <edge source="被诅咒的湖" target="考验">
-      <data key="d3">9.0</data>
-      <data key="d4">The tests that Aili must pass are part of the journey to find the cursed lake, which is essential to uncovering the secret of Yao Ying Lin."|&gt;"challenge, quest</data>
-      <data key="d5">9</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </edge>
-    <edge source="被诅咒的湖" target="水晶">
-      <data key="d3">9.0</data>
-      <data key="d4">The crystal mentioned by the guardian is located in the cursed lake, which is crucial to Aili's quest."|&gt;"crystal, quest</data>
-      <data key="d5">9</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </edge>
-    <edge source="被诅咒的湖" target="诅咒">
-      <data key="d3">8.0</data>
-      <data key="d4">The curse on the lake makes it a significant and dangerous part of Aili's journey to uncover the secret of Yao Ying Lin."|&gt;"curse, significant</data>
-      <data key="d5">8</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </edge>
-    <edge source="迷雾" target="探险者">
+    <edge source="古老王国" target="灾难">
       <data key="d3">7.0</data>
-      <data key="d4">The mist in the forest is a challenge for the adventurers, making their journey difficult and contributing to the legend."|&gt;"challenge, legend</data>
+      <data key="d4">The ancient kingdom was affected by a catastrophic event that led to it being shrouded in mist."|&gt;"event, consequence</data>
       <data key="d5">7</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
-    </edge>
-    <edge source="山谷" target="荆棘">
-      <data key="d3">6.0</data>
-      <data key="d4">The thorny bushes on the bridge over the river in the valley are a physical obstacle for Aili to overcome."|&gt;"obstacle, valley</data>
-      <data key="d5">6</data>
-      <data key="d6">chunk-e5f42891803957bc7f3adf5e701914e6</data>
+      <data key="d6">chunk-7342c9ad28631086988033c9ebea87ff</data>
     </edge>
   </graph>
 </graphml>
