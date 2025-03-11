@@ -1,0 +1,25 @@
+ # 设置默认行为，如果core.autocrlf未设置
+* text=auto
+
+# 明确声明应该规范化的文本文件
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+
+# 声明二进制文件不应该被修改
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.docx binary
+*.doc binary
+
+# 特定于项目的文件
+requirements.txt text eol=lf

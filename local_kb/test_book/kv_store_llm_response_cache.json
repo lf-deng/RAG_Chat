@@ -73,6 +73,33 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "总结一下故事内容，评价一下主人公。你觉得这个故事怎么样？"
+    },
+    "0fe5656f01a41f7842481a22aee727c4": {
+      "return": "{\"high_level_keywords\": [\"\\u6545\\u4e8b\\u56de\\u987e\", \"\\u9605\\u8bfb\\u7ecf\\u9a8c\", \"\\u8bb0\\u5fc6\"], \"low_level_keywords\": [\"\\u6545\\u4e8b\\u5185\\u5bb9\", \"\\u60c5\\u8282\\u7ec6\\u8282\", \"\\u4eba\\u7269\\u5173\\u7cfb\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "我好久没读这个故事了，帮我回顾一下"
+    },
+    "d15ae6c703e73c0ad9527d5ac38512b4": {
+      "return": "{\"high_level_keywords\": [\"\\u6545\\u4e8b\\u5206\\u6790\", \"\\u4eba\\u7269\\u63a8\\u6d4b\", \"\\u6587\\u5b66\\u98ce\\u683c\"], \"low_level_keywords\": [\"\\u827e\\u8389\", \"\\u86db\\u4e1d\\u9a6c\\u8ff9\", \"\\u884c\\u6587\\u98ce\\u683c\", \"\\u5730\\u7406\\u98ce\\u683c\", \"\\u5192\\u9669\\u6545\\u4e8b\", \"\\u52c7\\u6c14\", \"\\u667a\\u6167\", \"\\u5584\\u826f\", \"\\u5e7d\\u5f71\\u6797\", \"\\u53e4\\u8001\\u738b\\u56fd\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "从内容看，能不能能蛛丝马迹、行文风格、地理风格描述，猜测艾莉是哪里的人物？"
+    },
+    "e98757e54cd286b87f1070ccd907f9e5": {
+      "return": "{\"high_level_keywords\": [\"\\u6545\\u4e8b\\u5185\\u5bb9\", \"\\u6545\\u4e8b\\u4e3b\\u4f53\"], \"low_level_keywords\": [\"\\u4eba\\u7269\", \"\\u6545\\u4e8b\\u60c5\\u8282\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "这个故事主要讲的是谁的故事？"
     }
   }
 }
