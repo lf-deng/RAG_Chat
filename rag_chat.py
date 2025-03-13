@@ -45,6 +45,17 @@ def get_welcome_message():
     return welcome_message
 
 
+def reset_rag():
+    """重置RAG实例
+
+    用于在修改知识库后重置RAG实例，以便下次重新加载
+    """
+    global rag, current_kb
+    rag = None
+    current_kb = None
+    print("RAG实例已重置")
+
+
 async def initialize_rag(kb_name: str) -> LightRAG:
     """初始化RAG，需要指定知识库名称
 
@@ -86,8 +97,8 @@ async def initialize_rag(kb_name: str) -> LightRAG:
                 "api_key": chat_model_config.get("api_key", ""),
             },
             embedding_func=EmbeddingFunc(
-                embedding_dim=embedding_model_config.get("embedding_dim", 1536),
-                max_token_size=embedding_model_config.get("max_token_size", 8191),
+                embedding_dim=2048,
+                max_token_size=embedding_model_config.get("max_token_size", 8192),
                 func=lambda texts: openai_embed(
                     texts=texts,
                     model=EMBEDDING_MODEL,

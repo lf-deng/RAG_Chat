@@ -26,7 +26,8 @@ DEEPSEEK_API_KEY = "sk-1551464ac89447c59470fb92bbc230b3"
 
 # 默认使用的模型
 CHAT_MODEL = "glm-4-flash"
-EMBEDDING_MODEL = "embedding-2"
+EMBEDDING_MODEL = "embedding-3"
+
 
 # 模型配置字典，按模型名称索引
 MODEL_CONFIG: dict[str, dict[str, typing.Any]] = {

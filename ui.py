@@ -3,6 +3,7 @@ from utils import get_local_ip
 from tabs import chat_interface
 import os
 import shutil
+import textract
 
 
 INFO_DURATION = 2
@@ -13,16 +14,25 @@ UI_STATES = {
         gr.update(visible=True),  # chat_ui
         gr.update(visible=False),  # create_kb_ui
         gr.update(visible=False),  # select_kb_ui
+        gr.update(visible=False),  # modify_kb_ui
     ],
     "CREATE": [
         gr.update(visible=False),  # chat_ui
         gr.update(visible=True),  # create_kb_ui
         gr.update(visible=False),  # select_kb_ui
+        gr.update(visible=False),  # modify_kb_ui
     ],
     "SELECT": [
         gr.update(visible=False),  # chat_ui
         gr.update(visible=False),  # create_kb_ui
         gr.update(visible=True),  # select_kb_ui
+        gr.update(visible=False),  # modify_kb_ui
+    ],
+    "MODIFY": [
+        gr.update(visible=False),  # chat_ui
+        gr.update(visible=False),  # create_kb_ui
+        gr.update(visible=False),  # select_kb_ui
+        gr.update(visible=True),  # modify_kb_ui
     ],
 }
 
@@ -43,6 +53,12 @@ def show_select_knowledge_base():
     """显示知识库选择界面"""
     gr.Info("选择加载知识库", duration=INFO_DURATION)
     return UI_STATES["SELECT"]
+
+
+def show_modify_knowledge_base():
+    """显示知识库修改界面"""
+    gr.Info("修改知识库", duration=INFO_DURATION)
+    return UI_STATES["MODIFY"]
 
 
 def create_knowledge_base(kb_name, kb_desc, files):
@@ -75,6 +91,7 @@ def create_knowledge_base(kb_name, kb_desc, files):
         #     for file in files:
         #         file_name = os.path.basename(file.name)
         #         os.rename(file.name, os.path.join(kb_dir, file_name))
+        add_documents_to_knowledge_base(kb_name, files)
 
         gr.Info(f"成功创建知识库：{kb_name}", duration=INFO_DURATION)
         return UI_STATES["CHAT"]
@@ -165,6 +182,118 @@ def delete_knowledge_base(kb_name):
         return False
 
 
+def add_documents_to_knowledge_base(kb_name, files):
+    """向知识库添加文档"""
+    from rag_chat import load_knowledge_base_rag, ensure_rag, reset_rag
+
+    if not kb_name or kb_name == "请选择一个知识库":
+        gr.Warning("请先选择一个知识库！")
+        return UI_STATES["MODIFY"] + [
+            gr.update(visible=True, value="**错误**: 请先选择一个知识库！")
+        ]
+
+    if not files:
+        gr.Warning("请先上传文件！")
+        return UI_STATES["MODIFY"] + [
+            gr.update(visible=True, value="**错误**: 请先上传文件！")
+        ]
+
+    kb_path = os.path.join("./local_kb", kb_name)
+
+    try:
+        # 检查知识库是否存在
+        if not os.path.exists(kb_path):
+            gr.Warning(f"知识库 '{kb_name}' 不存在！")
+            return UI_STATES["MODIFY"] + [
+                gr.update(visible=True, value=f"**错误**: 知识库 '{kb_name}' 不存在！")
+            ]
+
+        # 加载知识库
+        print(f"加载知识库: {kb_name}")
+        gr.Info(f"正在加载知识库: {kb_name}...", duration=INFO_DURATION)
+
+        if not load_knowledge_base_rag(kb_name):
+            gr.Warning(f"加载知识库 '{kb_name}' 失败！")
+            return UI_STATES["MODIFY"] + [
+                gr.update(
+                    visible=True, value=f"**错误**: 加载知识库 '{kb_name}' 失败！"
+                )
+            ]
+
+        # 获取RAG实例
+        rag_instance = ensure_rag()
+
+        # 处理上传的文件
+        success_count = 0
+        failed_count = 0
+        failed_files = []
+
+        for file in files:
+            try:
+                file_name = os.path.basename(file.name)
+                file_path = file.name
+
+                print(f"处理文件: {file_name}")
+
+                # 根据文件类型读取内容
+                if file_name.endswith((".txt", ".md", ".docx", ".doc", ".pdf")):
+                    content = ""
+                    if file_name.endswith((".docx", ".doc", ".pdf")):
+                        content = textract.process(file_path).decode("utf-8")
+                    else:
+                        with open(file_path, "r", encoding="utf-8") as f:
+                            content = f.read()
+
+                    with open("insert_content.txt", "w", encoding="utf-8") as f:
+                        f.write(content)
+
+                    # 调用RAG的insert方法插入文档
+                    rag_instance.insert(content)
+                    success_count += 1
+                else:
+                    # 对于其他类型的文件，可以添加相应的处理逻辑
+                    print(f"暂不支持的文件类型: {file_name}")
+                    failed_count += 1
+                    failed_files.append(f"{file_name} (不支持的文件类型)")
+
+            except Exception as e:
+                print(f"处理文件 {file_name} 时发生错误: {e}")
+                failed_count += 1
+                failed_files.append(f"{file_name} ({str(e)})")
+
+        # 重置RAG为None
+        reset_rag()
+
+        # 构建结果信息
+        result_message = f"### 处理结果\n\n"
+        result_message += f"- 知识库: **{kb_name}**\n"
+        result_message += f"- 成功添加: **{success_count}** 个文档\n"
+
+        if failed_count > 0:
+            result_message += f"- 失败: **{failed_count}** 个文档\n\n"
+            result_message += "**失败文件列表:**\n"
+            for failed_file in failed_files:
+                result_message += f"- {failed_file}\n"
+
+        # 显示处理结果
+        if success_count > 0:
+            gr.Info(
+                f"成功向知识库 {kb_name} 添加 {success_count} 个文档",
+                duration=INFO_DURATION,
+            )
+        if failed_count > 0:
+            gr.Warning(f"有 {failed_count} 个文档添加失败", duration=INFO_DURATION)
+
+        # 停留在当前界面，并显示结果信息
+        return UI_STATES["MODIFY"] + [gr.update(visible=True, value=result_message)]
+    except Exception as e:
+        print(f"添加文档时发生错误: {e}")
+        gr.Warning(f"添加文档失败：{str(e)}")
+        return UI_STATES["MODIFY"] + [
+            gr.update(visible=True, value=f"**错误**: 添加文档失败: {str(e)}")
+        ]
+
+
 def create_demo():
     """创建 Gradio 界面"""
     local_ip = get_local_ip()
@@ -188,6 +317,7 @@ def create_demo():
                         chat_btn = gr.Button("RAG问答")
                         create_kb_btn = gr.Button("创建知识库")
                         select_kb_btn = gr.Button("选择知识库")
+                        modify_kb_btn = gr.Button("修改知识库")
 
             # chatbot
             with gr.Column(scale=4) as chat_ui:
@@ -333,33 +463,149 @@ def create_demo():
                     ],
                 )
 
+            # 知识库修改界面（初始隐藏）
+            with gr.Column(scale=4, visible=False) as modify_kb_ui:
+                gr.Markdown("### 修改知识库")
+
+                # 已有的知识库列表
+                modify_kb_list_dropdown = gr.Dropdown(
+                    label="选择要修改的知识库",
+                    choices=get_dropdown_choices(),
+                    interactive=True,
+                    value="请选择一个知识库",  # 初始值为提示文本
+                )
+
+                # 刷新知识库列表按钮
+                refresh_modify_kb_btn = gr.Button("刷新知识库列表", size="sm")
+
+                # 知识库信息显示区域
+                with gr.Column(visible=False) as modify_kb_info:
+                    modify_kb_title = gr.Markdown("### 知识库信息")
+                    modify_kb_desc = gr.Textbox(
+                        label="知识库介绍", interactive=False, lines=3
+                    )
+
+                # 文件上传
+                modify_kb_files = gr.File(
+                    label="上传新文档",
+                    file_types=[".txt", ".md", ".docx", ".doc", ".pdf"],
+                    file_count="multiple",
+                )
+
+                # 知识库操作按钮
+                with gr.Row():
+                    with gr.Column(scale=1):
+                        gr.Column()
+                    with gr.Column(scale=2, min_width=100):
+                        add_docs_btn = gr.Button("添加文档", variant="primary")
+                    with gr.Column(scale=1):
+                        gr.Column()
+
+                # 处理结果显示
+                modify_result_text = gr.Markdown(visible=False)
+
         # 绑定左侧按钮点击事件
         chat_btn.click(
             fn=show_chat,
-            outputs=[chat_ui, create_kb_ui, select_kb_ui],
+            outputs=[chat_ui, create_kb_ui, select_kb_ui, modify_kb_ui],
         )
 
         create_kb_btn.click(
             fn=show_create_knowledge_base,
-            outputs=[chat_ui, create_kb_ui, select_kb_ui],
+            outputs=[chat_ui, create_kb_ui, select_kb_ui, modify_kb_ui],
         )
 
         select_kb_btn.click(
             fn=show_select_knowledge_base,
-            outputs=[chat_ui, create_kb_ui, select_kb_ui],
+            outputs=[chat_ui, create_kb_ui, select_kb_ui, modify_kb_ui],
         ).then(fn=refresh_kb_list, outputs=[kb_list_dropdown])
+
+        modify_kb_btn.click(
+            fn=show_modify_knowledge_base,
+            outputs=[chat_ui, create_kb_ui, select_kb_ui, modify_kb_ui],
+        ).then(fn=refresh_kb_list, outputs=[modify_kb_list_dropdown])
 
         # 绑定功能按钮点击事件
         save_kb_btn.click(
             fn=create_knowledge_base,
             inputs=[new_kb_name, kb_desc, kb_files],
-            outputs=[chat_ui, create_kb_ui, select_kb_ui],
+            outputs=[chat_ui, create_kb_ui, select_kb_ui, modify_kb_ui],
         )
 
         load_kb_btn.click(
             fn=load_knowledge_base,
             inputs=[kb_title],  # 传入当前选中的知识库名称
-            outputs=[chat_ui, create_kb_ui, select_kb_ui, chatbot],
+            outputs=[chat_ui, create_kb_ui, select_kb_ui, modify_kb_ui, chatbot],
+        )
+
+        # 刷新修改知识库列表
+        refresh_modify_kb_btn.click(
+            fn=refresh_kb_list, outputs=[modify_kb_list_dropdown]
+        )
+
+        # 当选择要修改的知识库时，显示知识库信息
+        def view_modify_kb_info(kb_name):
+            if not kb_name or kb_name == "请选择一个知识库":
+                return [
+                    gr.update(visible=False),  # modify_kb_info
+                    gr.update(value=""),  # modify_kb_title
+                    gr.update(value=""),  # modify_kb_desc
+                    gr.update(visible=False),  # modify_result_text
+                ]
+
+            kb_path = os.path.join("./local_kb", kb_name)
+
+            try:
+                # 读取知识库介绍
+                content = ""
+                if os.path.exists(os.path.join(kb_path, "description.txt")):
+                    with open(
+                        os.path.join(kb_path, "description.txt"), "r", encoding="utf-8"
+                    ) as f:
+                        content = f.read()
+                else:
+                    content = "暂无知识库介绍"
+
+                return [
+                    gr.update(visible=True),  # modify_kb_info
+                    gr.update(value=f"### 知识库: {kb_name}"),  # modify_kb_title
+                    gr.update(value=content),  # modify_kb_desc
+                    gr.update(visible=False),  # modify_result_text
+                ]
+            except Exception as e:
+                print(f"读取知识库信息时发生错误: {e}")
+                return [
+                    gr.update(visible=False),  # modify_kb_info
+                    gr.update(value=""),  # modify_kb_title
+                    gr.update(value=""),  # modify_kb_desc
+                    gr.update(
+                        visible=True, value=f"读取知识库信息失败: {str(e)}"
+                    ),  # modify_result_text
+                ]
+
+        # 绑定修改知识库下拉菜单变化事件
+        modify_kb_list_dropdown.change(
+            fn=view_modify_kb_info,
+            inputs=[modify_kb_list_dropdown],
+            outputs=[
+                modify_kb_info,
+                modify_kb_title,
+                modify_kb_desc,
+                modify_result_text,
+            ],
+        )
+
+        # 添加文档按钮
+        add_docs_btn.click(
+            fn=add_documents_to_knowledge_base,
+            inputs=[modify_kb_list_dropdown, modify_kb_files],
+            outputs=[
+                chat_ui,
+                create_kb_ui,
+                select_kb_ui,
+                modify_kb_ui,
+                modify_result_text,
+            ],
         )
 
         # 删除知识库后重新加载选择界面
@@ -372,7 +618,7 @@ def create_demo():
         delete_kb_btn.click(
             fn=delete_and_reload,
             inputs=[kb_title],  # 传入当前选中的知识库名称
-            outputs=[chat_ui, create_kb_ui, select_kb_ui],
+            outputs=[chat_ui, create_kb_ui, select_kb_ui, modify_kb_ui],
         ).then(fn=refresh_kb_list, outputs=[kb_list_dropdown]).then(
             fn=lambda: [
                 gr.update(visible=False),  # kb_content
