@@ -1,0 +1,1220 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="华东师范大学">
+  <data key="d0">organization</data>
+  <data key="d1">The East China Normal University is a prestigious educational institution in China, specializing in various fields including education and computer science.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="计算机科学与技术学院">
+  <data key="d0">organization</data>
+  <data key="d1">The School of Computer Science and Technology is a department within the East China Normal University, focusing on computer science and technology education.&lt;SEP&gt;计算机科学与技术学院是论文作者邓凌峰所在学院。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74&lt;SEP&gt;chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="计算机科学与技术专业">
+  <data key="d0">category</data>
+  <data key="d1">The major in Computer Science and Technology is an academic program offered by the School of Computer Science and Technology at East China Normal University.&lt;SEP&gt;计算机科学与技术专业是论文作者邓凌峰所学专业。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74&lt;SEP&gt;chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="邓凌峰">
+  <data key="d0">person</data>
+  <data key="d1">Deng Lingfeng is a student at the East China Normal University, pursuing the major in Computer Science and Technology.&lt;SEP&gt;邓凌峰是论文《基于大模型的课程语料库构建与智能问答系统的研究》的作者。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74&lt;SEP&gt;chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="GPT">
+  <data key="d0">organization</data>
+  <data key="d1">GPT refers to the Generative Pre-trained Transformer models, which are advanced language models developed by OpenAI and applied in various natural language processing tasks.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="Khan Academy">
+  <data key="d0">organization</data>
+  <data key="d1">Khan Academy is an online educational platform providing free educational resources and interactive learning experiences.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="Duolingo">
+  <data key="d0">organization</data>
+  <data key="d1">Duolingo is a language-learning platform that offers courses in various languages with gamified learning techniques.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="知乎">
+  <data key="d0">organization</data>
+  <data key="d1">Zhihu is a Chinese question-and-answer website where users can ask questions and share knowledge.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="CSDN">
+  <data key="d0">organization</data>
+  <data key="d1">CSDN is a Chinese online community for programmers and IT professionals, offering articles, tutorials, and a question-and-answer platform.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="Retrieval-Augmented Generation (RAG)">
+  <data key="d0">organization</data>
+  <data key="d1">Retrieval-Augmented Generation is a technique that combines information retrieval and natural language generation to improve the performance of language models in specific domains.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="大模型">
+  <data key="d0">technology</data>
+  <data key="d1">Large models refer to a class of deep learning models that are pre-trained on large-scale datasets and can be fine-tuned for specific tasks, such as natural language processing.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="课程语料库">
+  <data key="d0">organization</data>
+  <data key="d1">Course corpus is a collection of text data related to a specific course, which can be used for training and improving language models.&lt;SEP&gt;课程语料库是包含特定课程内容的数据库，用于训练和测试智能问答系统。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540&lt;SEP&gt;chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="智能问答系统">
+  <data key="d0">technology</data>
+  <data key="d1">An intelligent question-answering system is a software application that can understand user queries and provide relevant answers, often based on machine learning techniques.&lt;SEP&gt;智能问答系统是本研究需构建的完整系统，具备友好的用户界面和实时返回准确解答的功能。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540&lt;SEP&gt;chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="在线答疑">
+  <data key="d0">event</data>
+  <data key="d1">Online tutoring refers to the process of providing educational support to students through the internet, often in real-time or asynchronously.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="智能辅导">
+  <data key="d0">event</data>
+  <data key="d1">Intelligent tutoring refers to the use of artificial intelligence to provide personalized educational assistance to students, aiming to improve their learning outcomes.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="虚拟助教">
+  <data key="d0">technology</data>
+  <data key="d1">A virtual tutor is a computer program designed to simulate a human tutor, providing educational content and interacting with students to support their learning process.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="机器翻译">
+  <data key="d0">technology</data>
+  <data key="d1">Machine translation is the process of automatically translating text from one language to another using computational methods.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="教材">
+  <data key="d0">category</data>
+  <data key="d1">Textbooks are educational materials written to be used in schools or educational institutions to teach students about a particular subject.&lt;SEP&gt;教材是课程语料库的一部分，包含课程的基本教学材料。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540&lt;SEP&gt;chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="讲义">
+  <data key="d0">category</data>
+  <data key="d1">Lecture notes are written materials prepared by teachers to accompany their lectures, providing students with additional information and explanations.&lt;SEP&gt;讲义是课程语料库的一部分，包含教师讲解课程内容时的补充材料。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540&lt;SEP&gt;chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="习题">
+  <data key="d0">category</data>
+  <data key="d1">Exercises are problems or tasks designed to test and reinforce students' understanding of a particular subject or concept.&lt;SEP&gt;习题是课程语料库的一部分，用于检验学生对课程内容的理解。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540&lt;SEP&gt;chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="参考资料">
+  <data key="d0">category</data>
+  <data key="d1">Reference materials are additional resources that provide information or support for a particular topic or subject, often used for further study or research.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="PDF">
+  <data key="d0">category</data>
+  <data key="d1">PDF stands for Portable Document Format, a file format used for representing documents in a manner independent of application software, hardware, and operating systems.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="预处理技术">
+  <data key="d0">technology</data>
+  <data key="d1">Preprocessing techniques are methods used to prepare data for analysis or processing, such as converting PDF files to text and image data.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="信息检索">
+  <data key="d0">technology</data>
+  <data key="d1">Information retrieval is the process of obtaining relevant information from a large collection of data, often using search engines or database systems.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="知识图谱">
+  <data key="d0">technology</data>
+  <data key="d1">A knowledge graph is a structured representation of information, typically used to model real-world entities, relationships, and attributes, and is often used in applications such as semantic search and question-answering.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="微调">
+  <data key="d0">technology</data>
+  <data key="d1">Fine-tuning is a process of adjusting the parameters of a pre-trained model to adapt it to a specific task or domain.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="角色">
+  <data key="d0">category</data>
+  <data key="d1">Role refers to the function or position that a person or entity occupies in a particular context or system.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="提示词">
+  <data key="d0">category</data>
+  <data key="d1">Prompt words are specific terms or phrases used to guide the generation of text by a language model, often used in tasks such as text generation and machine translation.</data>
+  <data key="d2">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</node>
+<node id="模型">
+  <data key="d0">category</data>
+  <data key="d1">模型是研究的核心，其性能将得到显著增强，用于生成与课程相关的内容。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="微调过程">
+  <data key="d0">category</data>
+  <data key="d1">微调过程结合实际课程问题和解答进行调整，确保模型能够准确理解和生成与课程相关的内容。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="课程相关问题">
+  <data key="d0">category</data>
+  <data key="d1">课程相关问题将用于微调过程，以提升模型生成课程相关内容的准确性。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="用户界面">
+  <data key="d0">category</data>
+  <data key="d1">用户界面是智能问答系统的一部分，使用户能够方便地输入问题。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="课程内容">
+  <data key="d0">category</data>
+  <data key="d1">课程内容是智能问答系统的基础，用于构建课程语料库。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="系统评估和优化">
+  <data key="d0">category</data>
+  <data key="d1">系统评估和优化涉及对系统的全面测试和评估，以分析其在回答准确性、响应时间等方面的表现。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="RAG 的实现">
+  <data key="d0">category</data>
+  <data key="d1">RAG 的实现是改进大模型微调过程的关键，旨在提升模型的适应性和灵活性。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="智能问答系统开发">
+  <data key="d0">event</data>
+  <data key="d1">智能问答系统开发是本研究的重要步骤，旨在构建一个能够提供准确解答的系统。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="系统测试与迭代">
+  <data key="d0">event</data>
+  <data key="d1">系统测试与迭代是确保系统可靠性和实用性的关键步骤，通过测试和评估进行迭代优化。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="毕业论文写作">
+  <data key="d0">event</data>
+  <data key="d1">毕业论文写作是本研究的目标之一，用于系统地整理和总结研究过程中的发现和成果。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="学位论文">
+  <data key="d0">category</data>
+  <data key="d1">学位论文是研究过程中撰写的高质量论文，为后续的学术研究奠定基础。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="教育领域">
+  <data key="d0">category</data>
+  <data key="d1">教育领域是本研究的目标应用领域，旨在为教育领域提供创新的解决方案。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="大模型与 RAG 方法">
+  <data key="d0">category</data>
+  <data key="d1">大模型与 RAG 方法是本研究探索的结合方式，旨在推动相关技术在教育领域的创新和发展。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="实际课程">
+  <data key="d0">category</data>
+  <data key="d1">实际课程是微调过程中需要结合的问题和解答的来源，用于确保模型与课程相关。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="解答">
+  <data key="d0">category</data>
+  <data key="d1">解答是智能问答系统返回给用户的内容，需要确保其准确性和相关性。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="用户体验">
+  <data key="d0">category</data>
+  <data key="d1">用户体验是智能问答系统设计时考虑的重要因素，旨在提供流畅的使用体验。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="响应时间">
+  <data key="d0">category</data>
+  <data key="d1">响应时间是评估智能问答系统性能的一个重要指标，指系统从接收到问题到返回答案的时间。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="迭代优化">
+  <data key="d0">category</data>
+  <data key="d1">迭代优化是基于评估结果对系统进行的持续改进，以提高其性能。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="大语言模型">
+  <data key="d0">category</data>
+  <data key="d1">大语言模型是本研究中使用的预训练模型，用于生成和理解文本。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="用户测试">
+  <data key="d0">event</data>
+  <data key="d1">用户测试是评估智能问答系统表现的一种方法，通过用户实际使用系统来收集数据。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="问答准确率">
+  <data key="d0">category</data>
+  <data key="d1">问答准确率是评估智能问答系统性能的一个指标，指系统返回正确答案的比例。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="统计分析工具">
+  <data key="d0">category</data>
+  <data key="d1">统计分析工具用于分析用户测试中获得的数据，以评估系统的表现。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="研究假设">
+  <data key="d0">category</data>
+  <data key="d1">研究假设是研究过程中提出的关于系统表现的预测，用于指导后续的测试和评估。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="改进建议">
+  <data key="d0">category</data>
+  <data key="d1">改进建议是基于评估结果提出的，旨在提升系统的性能和用户体验。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="学术研究">
+  <data key="d0">category</data>
+  <data key="d1">学术研究是本研究的基础，用于提供理论基础和研究方向。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="参考框架">
+  <data key="d0">category</data>
+  <data key="d1">参考框架是文献分析法中使用的工具，用于组织和管理研究结果。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="实证支持">
+  <data key="d0">category</data>
+  <data key="d1">实证支持是通过案例研究法获得的，用于验证研究假设和探索应用效果。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="应用效果">
+  <data key="d0">category</data>
+  <data key="d1">应用效果是指智能问答系统在实际应用中的表现，包括准确性和用户满意度。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="挑战">
+  <data key="d0">category</data>
+  <data key="d1">挑战是指在实施智能问答系统时遇到的问题和困难。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="解决方案">
+  <data key="d0">category</data>
+  <data key="d1">解决方案是针对挑战提出的，用于克服困难并提升系统性能。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="LangChain">
+  <data key="d0">category</data>
+  <data key="d1">LangChain是一种用于构建智能问答系统的框架，本研究可能涉及其应用。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="ChatGLM">
+  <data key="d0">category</data>
+  <data key="d1">ChatGLM是一种基于GLM的大语言模型，可能用于构建智能问答系统。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="C语言课程问答系统">
+  <data key="d0">category</data>
+  <data key="d1">C语言课程问答系统是案例研究中的一个例子，用于展示智能问答系统的应用。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="中邮网院智能客服系统">
+  <data key="d0">category</data>
+  <data key="d1">中邮网院智能客服系统是案例研究中的一个例子，用于展示LLM和RAG技术的应用。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="邮政研究">
+  <data key="d0">category</data>
+  <data key="d1">邮政研究是案例研究中引用的期刊，可能包含相关研究成果。&lt;SEP&gt;邮政研究是论文《基于LLM和RAG的中邮网院智能客服系统研究》发表的期刊。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74&lt;SEP&gt;chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="现代计算机">
+  <data key="d0">category</data>
+  <data key="d1">现代计算机是案例研究中引用的期刊，可能包含相关研究成果。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="信息与电脑(理论版)">
+  <data key="d0">category</data>
+  <data key="d1">信息与电脑(理论版)是案例研究中引用的期刊，可能包含相关研究成果。</data>
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</node>
+<node id="张丽静">
+  <data key="d0">person</data>
+  <data key="d1">张丽静是论文作者之一，从事基于LLM和RAG的中邮网院智能客服系统研究。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="杜冬梅">
+  <data key="d0">person</data>
+  <data key="d1">杜冬梅是论文作者之一，参与基于LLM和RAG的中邮网院智能客服系统研究。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="刘庆芳">
+  <data key="d0">person</data>
+  <data key="d1">刘庆芳是论文作者之一，参与基于LLM和RAG的中邮网院智能客服系统研究。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Ward K C">
+  <data key="d0">person</data>
+  <data key="d1">Ward K C是论文作者之一，发表文章《Emerging trends: a gentle introduction to RAG》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Jiameng S">
+  <data key="d0">person</data>
+  <data key="d1">Jiameng S是论文作者之一，发表文章《Emerging trends: a gentle introduction to RAG》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Richard Y">
+  <data key="d0">person</data>
+  <data key="d1">Richard Y是论文作者之一，发表文章《Emerging trends: a gentle introduction to RAG》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="刘彦宏">
+  <data key="d0">person</data>
+  <data key="d1">刘彦宏是论文作者之一，发表文章《基于Word2Vec模型与RAG框架的医疗检索增强生成算法》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="崔永瑞">
+  <data key="d0">person</data>
+  <data key="d1">崔永瑞是论文作者之一，发表文章《基于Word2Vec模型与RAG框架的医疗检索增强生成算法》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="赵镇宇">
+  <data key="d0">person</data>
+  <data key="d1">赵镇宇是论文作者之一，发表文章《基于知识图谱检索增强的知识驱动对话模型研究》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="郝世博">
+  <data key="d0">person</data>
+  <data key="d1">郝世博是论文作者之一，发表文章《基于开源RAG架构的校企专利技术合作问答应用研究》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="史东昊">
+  <data key="d0">person</data>
+  <data key="d1">史东昊是论文作者之一，发表文章《基于开源RAG架构的校企专利技术合作问答应用研究》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="唐裕晨">
+  <data key="d0">person</data>
+  <data key="d1">唐裕晨是论文作者之一，发表文章《基于开源RAG架构的校企专利技术合作问答应用研究》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="吴建明">
+  <data key="d0">person</data>
+  <data key="d1">吴建明是论文作者之一，发表文章《基于大模型数据优化及检索增强的假新闻检测研究》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="孙维纬">
+  <data key="d0">person</data>
+  <data key="d1">孙维纬是论文作者之一，发表文章《知识检索增强的对话系统研究》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="马龙轩">
+  <data key="d0">person</data>
+  <data key="d1">马龙轩是论文作者之一，发表文章《检索式问答系统中语义关系的计算与评价》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Yunfan Gao">
+  <data key="d0">person</data>
+  <data key="d1">Yunfan Gao是论文作者之一，发表文章《Retrieval-Augmented Generation for Large Language Models: A Survey》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Yun Xiong">
+  <data key="d0">person</data>
+  <data key="d1">Yun Xiong是论文作者之一，发表文章《Retrieval-Augmented Generation for Large Language Models: A Survey》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Xinyu Gao">
+  <data key="d0">person</data>
+  <data key="d1">Xinyu Gao是论文作者之一，发表文章《Retrieval-Augmented Generation for Large Language Models: A Survey》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Kangxiang Jia">
+  <data key="d0">person</data>
+  <data key="d1">Kangxiang Jia是论文作者之一，发表文章《Retrieval-Augmented Generation for Large Language Models: A Survey》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Jinliu Pan">
+  <data key="d0">person</data>
+  <data key="d1">Jinliu Pan是论文作者之一，发表文章《Retrieval-Augmented Generation for Large Language Models: A Survey》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Yuxi Bi">
+  <data key="d0">person</data>
+  <data key="d1">Yuxi Bi是论文作者之一，发表文章《Retrieval-Augmented Generation for Large Language Models: A Survey》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Yi Dai">
+  <data key="d0">person</data>
+  <data key="d1">Yi Dai是论文作者之一，发表文章《Retrieval-Augmented Generation for Large Language Models: A Survey》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Jiawei Sun">
+  <data key="d0">person</data>
+  <data key="d1">Jiawei Sun是论文作者之一，发表文章《Retrieval-Augmented Generation for Large Language Models: A Survey》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Meng Wang">
+  <data key="d0">person</data>
+  <data key="d1">Meng Wang是论文作者之一，发表文章《Retrieval-Augmented Generation for Large Language Models: A Survey》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Haofen Wang">
+  <data key="d0">person</data>
+  <data key="d1">Haofen Wang是论文作者之一，发表文章《Retrieval-Augmented Generation for Large Language Models: A Survey》。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="lizhe2004">
+  <data key="d0">person</data>
+  <data key="d1">lizhe2004是论文作者之一，创建GitHub仓库Awesome-LLM-RAG-Application。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="NirDiamant">
+  <data key="d0">person</data>
+  <data key="d1">NirDiamant是论文作者之一，创建GitHub仓库RAG_Techniques。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="中邮网院">
+  <data key="d0">organization</data>
+  <data key="d1">中邮网院是论文《基于LLM和RAG的中邮网院智能客服系统研究》的研究机构。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="Natural Language Engineering">
+  <data key="d0">organization</data>
+  <data key="d1">Natural Language Engineering是论文《Emerging trends: a gentle introduction to RAG》发表的期刊。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="人工智能与机器人研究">
+  <data key="d0">organization</data>
+  <data key="d1">人工智能与机器人研究是论文《基于Word2Vec模型与RAG框架的医疗检索增强生成算法》发表的期刊。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="南昌大学">
+  <data key="d0">organization</data>
+  <data key="d1">南昌大学是论文《基于知识图谱检索增强的知识驱动对话模型研究》的作者赵镇宇的毕业院校。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="技术与市场">
+  <data key="d0">organization</data>
+  <data key="d1">技术与市场是论文《基于开源RAG架构的校企专利技术合作问答应用研究》发表的期刊。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="广州大学">
+  <data key="d0">organization</data>
+  <data key="d1">广州大学是论文《基于大模型数据优化及检索增强的假新闻检测研究》的作者吴建明的毕业院校。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="山东大学">
+  <data key="d0">organization</data>
+  <data key="d1">山东大学是论文《知识检索增强的对话系统研究》的作者孙维纬的毕业院校。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="北京邮电大学">
+  <data key="d0">organization</data>
+  <data key="d1">北京邮电大学是论文《检索式问答系统中语义关系的计算与评价》的作者马龙轩的毕业院校。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="arXiv">
+  <data key="d0">organization</data>
+  <data key="d1">arXiv是论文《Retrieval-Augmented Generation for Large Language Models: A Survey》发表的学术期刊。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="GitHub">
+  <data key="d0">organization</data>
+  <data key="d1">GitHub是论文作者lizhe2004和NirDiamant创建GitHub仓库的平台。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="2024">
+  <data key="d0">geo</data>
+  <data key="d1">2024是论文发表年份。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="10215102463">
+  <data key="d0">person</data>
+  <data key="d1">10215102463是论文作者邓凌峰的学号。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="2024 年 11 月 5 日">
+  <data key="d0">event</data>
+  <data key="d1">2024 年 11 月 5 日是论文指导教师签字日期。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="2024 年 11 月 11 日">
+  <data key="d0">event</data>
+  <data key="d1">2024 年 11 月 11 日是开题答辩小组签字日期。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="教务处">
+  <data key="d0">organization</data>
+  <data key="d1">教务处是论文开题答辩小组意见编制机构。</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="LLM">
+  <data key="d0">category</data>
+  <data key="d1">LLM refers to Large Language Models, a key technology in the study of natural language processing and generation.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="RAG">
+  <data key="d0">category</data>
+  <data key="d1">RAG stands for Retrieval-Augmented Generation, a technique that combines retrieval with generation to enhance the quality of generated text.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="natural language processing">
+  <data key="d0">category</data>
+  <data key="d1">Natural language processing is a field of computer science, artificial intelligence, and linguistics concerned with the interactions between computers and human (natural) languages.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="natural language generation">
+  <data key="d0">category</data>
+  <data key="d1">Natural language generation is the process of generating natural language from a machine. It is a subfield of natural language processing.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="computer science">
+  <data key="d0">category</data>
+  <data key="d1">Computer science is the study of computers and computational systems. It encompasses both the theoretical and practical aspects of computing.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="artificial intelligence">
+  <data key="d0">category</data>
+  <data key="d1">Artificial intelligence is the intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="linguistics">
+  <data key="d0">category</data>
+  <data key="d1">Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="text processing">
+  <data key="d0">category</data>
+  <data key="d1">Text processing is the manipulation of text by a computer, including tasks such as tokenization, parsing, and summarization.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="dialogue systems">
+  <data key="d0">category</data>
+  <data key="d1">Dialogue systems are computer programs that interact with humans through natural language. They can be used for various applications such as chatbots and virtual assistants.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="chatbots">
+  <data key="d0">category</data>
+  <data key="d1">Chatbots are computer programs that interact with users through a chat interface. They can be used for customer service, information retrieval, and entertainment.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="virtual assistants">
+  <data key="d0">category</data>
+  <data key="d1">Virtual assistants are AI-powered software applications that can perform tasks and provide information based on user queries.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="computational linguistics">
+  <data key="d0">category</data>
+  <data key="d1">Computational linguistics is the subfield of linguistics that uses computers to process and analyze language.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="data mining">
+  <data key="d0">category</data>
+  <data key="d1">Data mining is the process of discovering patterns in large data sets involving methods at the intersection of computer science, statistics, and information theory.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="machine learning">
+  <data key="d0">category</data>
+  <data key="d1">Machine learning is a field of artificial intelligence that gives computers the ability to learn without being explicitly programmed.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="neural networks">
+  <data key="d0">category</data>
+  <data key="d1">Neural networks are a class of machine learning models inspired by the structure and function of the human brain.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="deep learning">
+  <data key="d0">category</data>
+  <data key="d1">Deep learning is a subset of machine learning that structures algorithms in layers to create an "artificial neural network" that can learn and make intelligent decisions on its own.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="semantic analysis">
+  <data key="d0">category</data>
+  <data key="d1">Semantic analysis is the study of meaning in language, including the interpretation of the text and the inference of the writer's intentions.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="sentiment analysis">
+  <data key="d0">category</data>
+  <data key="d1">Sentiment analysis is the computational analysis of texts to determine whether the sentiment expressed is positive, negative, or neutral.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="text classification">
+  <data key="d0">category</data>
+  <data key="d1">Text classification is the task of assigning a category to a text document, based on its content.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="information retrieval">
+  <data key="d0">category</data>
+  <data key="d1">Information retrieval is the process of obtaining relevant information from large collections of data, such as databases.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="knowledge representation">
+  <data key="d0">category</data>
+  <data key="d1">Knowledge representation is the field of artificial intelligence that deals with the encoding, storage, and use of knowledge.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="inference">
+  <data key="d0">category</data>
+  <data key="d1">Inference is the process of drawing conclusions based on premises or evidence.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="reasoning">
+  <data key="d0">category</data>
+  <data key="d1">Reasoning is the process of using logic to draw conclusions or make decisions.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="pattern recognition">
+  <data key="d0">category</data>
+  <data key="d1">Pattern recognition is the process of recognizing patterns in data. It is a key component of machine learning and AI.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="feature extraction">
+  <data key="d0">category</data>
+  <data key="d1">Feature extraction is the process of selecting a subset of relevant features from a larger set of features.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="vector space model">
+  <data key="d0">category</data>
+  <data key="d1">Vector space model is a mathematical model for representing text data, typically as vectors in a high-dimensional space.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="term frequency-inverse document frequency">
+  <data key="d0">category</data>
+  <data key="d1">Term frequency-inverse document frequency (TF-IDF) is a statistical measure used to evaluate how important a word is to a document in a collection or corpus.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="document similarity">
+  <data key="d0">category</data>
+  <data key="d1">Document similarity is the measure of the degree to which two documents are alike.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="text clustering">
+  <data key="d0">category</data>
+  <data key="d1">Text clustering is the task of grouping a set of documents into clusters based on their content.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="topic modeling">
+  <data key="d0">category</data>
+  <data key="d1">Topic modeling is a statistical method for discovering abstract topics that occur in a collection of documents.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="document summarization">
+  <data key="d0">category</data>
+  <data key="d1">Document summarization is the task of reducing a document to a shorter, more concise version while preserving the main content.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="question answering">
+  <data key="d0">category</data>
+  <data key="d1">Question answering is the task of automatically answering a question posed by a user based on a collection of documents.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="factoid question answering">
+  <data key="d0">category</data>
+  <data key="d1">Factoid question answering is the task of answering questions that have a factual answer, such as "Who was the president of the United States in 1990?".</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="open-domain question answering">
+  <data key="d0">category</data>
+  <data key="d1">Open-domain question answering is the task of answering questions on any topic, not limited to a specific domain.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="cross-lingual question answering">
+  <data key="d0">category</data>
+  <data key="d1">Cross-lingual question answering is the task of answering questions in one language based on documents in another language.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="zero-shot learning">
+  <data key="d0">category</data>
+  <data key="d1">Zero-shot learning is the task of learning to classify examples of unseen classes without any training data for those classes.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="few-shot learning">
+  <data key="d0">category</data>
+  <data key="d1">Few-shot learning is the task of learning to classify examples of a new class with very few training examples for that class.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="active learning">
+  <data key="d0">category</data>
+  <data key="d1">Active learning is a machine learning approach where the model is allowed to query the human annotator for additional examples.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="semi-supervised learning">
+  <data key="d0">category</data>
+  <data key="d1">Semi-supervised learning is a machine learning approach where the model is trained on a combination of labeled and unlabeled data.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="unsupervised learning">
+  <data key="d0">category</data>
+  <data key="d1">Unsupervised learning is a machine learning approach where the model is trained on unlabeled data.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="supervised learning">
+  <data key="d0">category</data>
+  <data key="d1">Supervised learning is a machine learning approach where the model is trained on labeled data.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="transfer learning">
+  <data key="d0">category</data>
+  <data key="d1">Transfer learning is a machine learning approach where a pre-trained model is fine-tuned on a new task.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="domain adaptation">
+  <data key="d0">category</data>
+  <data key="d1">Domain adaptation is the task of adapting a model trained on one domain to perform well on a different domain.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="out-of-distribution detection">
+  <data key="d0">category</data>
+  <data key="d1">Out-of-distribution detection is the task of identifying examples that do not come from the same distribution as the training data.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="robustness">
+  <data key="d0">category</data>
+  <data key="d1">Robustness is the ability of a system to perform well under various conditions, including adversarial attacks.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="adversarial examples">
+  <data key="d0">category</data>
+  <data key="d1">Adversarial examples are carefully crafted examples designed to fool a machine learning model.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="explanation">
+  <data key="d0">category</data>
+  <data key="d1">Explanation is the process of providing a clear and understandable explanation of how a machine learning model makes decisions.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="interpretability">
+  <data key="d0">category</data>
+  <data key="d1">Interpretability is the degree to which a machine learning model's decisions can be understood by humans.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="explainable AI">
+  <data key="d0">category</data>
+  <data key="d1">Explainable AI (XAI) is a field of research that focuses on making machine learning models more interpretable.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="algorithmic bias">
+  <data key="d0">category</data>
+  <data key="d1">Algorithmic bias refers to the unfair or discriminatory outcomes that can result from biases in machine learning algorithms.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="fairness">
+  <data key="d0">category</data>
+  <data key="d1">Fairness is the concept of treating all individuals equally, regardless of their characteristics.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="equality">
+  <data key="d0">category</data>
+  <data key="d1">Equality is the state of being equal, or of having the same rights, status, or opportunities.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="inclusion">
+  <data key="d0">category</data>
+  <data key="d1">Inclusion is the act of including or involving others, especially in a positive or welcome way.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="diversity">
+  <data key="d0">category</data>
+  <data key="d1">Diversity is the quality of having an unlimited variety.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="accessibility">
+  <data key="d0">category</data>
+  <data key="d1">Accessibility is the quality of being easy to reach or use.</data>
+  <data key="d2">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</node>
+<node id="案例研究法">
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+  <data key="d1">案例研究法用于提供实证支持，以验证研究假设。</data>
+  <data key="d0">UNKNOWN</data>
+</node>
+<node id="案例研究">
+  <data key="d2">chunk-ac001068fc7df3b11881c74da0e84540</data>
+  <data key="d1">案例研究用于评估应用效果，以了解系统在实际应用中的表现。</data>
+  <data key="d0">UNKNOWN</data>
+</node>
+<node id="测试文件">
+  <data key="d0">category</data>
+  <data key="d1">测试文件 is a category that represents a document used for testing purposes.</data>
+  <data key="d2">chunk-9d0823c161b688225de95cf7ab0afb98</data>
+</node>
+<node id="这是">
+  <data key="d0">category</data>
+  <data key="d1">The phrase '这是' could represent a category, possibly indicating a start or introduction of something, in the context of a test document.</data>
+  <data key="d2">chunk-9d0823c161b688225de95cf7ab0afb98</data>
+</node>
+<node id="测试">
+  <data key="d0">event</data>
+  <data key="d1">The word '测试' indicates an event or activity, likely related to the purpose of the document, which is testing.</data>
+  <data key="d2">chunk-9d0823c161b688225de95cf7ab0afb98</data>
+</node>
+<node id="文件">
+  <data key="d0">category</data>
+  <data key="d1">'文件' represents a category as it signifies a document or a piece of written material.</data>
+  <data key="d2">chunk-9d0823c161b688225de95cf7ab0afb98</data>
+</node>
+<node id="category">
+  <data key="d2">chunk-9d0823c161b688225de95cf7ab0afb98</data>
+  <data key="d1">测试文件 is a category itself, indicating its nature as a testing document.</data>
+  <data key="d0">UNKNOWN</data>
+</node>
+<edge source="华东师范大学" target="邓凌峰">
+  <data key="d3">8.0</data>
+  <data key="d4">Deng Lingfeng is a student at the East China Normal University, which is a prestigious educational institution in China."|&gt;"education, student</data>
+  <data key="d5">8</data>
+  <data key="d6">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</edge>
+<edge source="华东师范大学" target="计算机科学与技术学院">
+  <data key="d3">6.0</data>
+  <data key="d4">The School of Computer Science and Technology is a department within the East China Normal University."|&gt;"department, university</data>
+  <data key="d5">6</data>
+  <data key="d6">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</edge>
+<edge source="计算机科学与技术学院" target="邓凌峰">
+  <data key="d3">7.0</data>
+  <data key="d4">邓凌峰是论文《基于大模型的课程语料库构建与智能问答系统的研究》的作者，计算机科学与技术学院是其所在学院，属于作者与学院关系。</data>
+  <data key="d5">作者与学院关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="计算机科学与技术专业" target="邓凌峰">
+  <data key="d3">14.0</data>
+  <data key="d4">Deng Lingfeng is pursuing the major in Computer Science and Technology at the East China Normal University."|&gt;"major, academic focus&lt;SEP&gt;邓凌峰是论文《基于大模型的课程语料库构建与智能问答系统的研究》的作者，计算机科学与技术专业是其所学专业，属于作者与专业关系。</data>
+  <data key="d5">7&lt;SEP&gt;作者与专业关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74&lt;SEP&gt;chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</edge>
+<edge source="邓凌峰" target="中邮网院">
+  <data key="d3">7.0</data>
+  <data key="d4">邓凌峰是论文《基于大模型的课程语料库构建与智能问答系统的研究》的作者，中邮网院是其所在机构，属于作者与机构关系。</data>
+  <data key="d5">作者与机构关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="邓凌峰" target="2024 年 11 月 5 日">
+  <data key="d3">7.0</data>
+  <data key="d4">2024 年 11 月 5 日是论文指导教师签字日期，邓凌峰是论文作者，属于指导教师与作者关系。</data>
+  <data key="d5">指导教师与作者关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="邓凌峰" target="2024 年 11 月 11 日">
+  <data key="d3">7.0</data>
+  <data key="d4">2024 年 11 月 11 日是开题答辩小组签字日期，邓凌峰是论文作者，属于答辩小组与作者关系。</data>
+  <data key="d5">答辩小组与作者关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="邓凌峰" target="教务处">
+  <data key="d3">7.0</data>
+  <data key="d4">教务处是论文开题答辩小组意见编制机构，邓凌峰是论文作者，属于机构与作者关系。</data>
+  <data key="d5">机构与作者关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="GPT" target="Khan Academy">
+  <data key="d3">8.0</data>
+  <data key="d4">GPT models are applied in Khan Academy's online learning platform, providing AI-driven support for students."|&gt;"application, educational platform</data>
+  <data key="d5">8</data>
+  <data key="d6">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</edge>
+<edge source="GPT" target="Duolingo">
+  <data key="d3">7.0</data>
+  <data key="d4">GPT models are applied in Duolingo's language-learning platform, offering personalized learning experiences."|&gt;"application, language learning</data>
+  <data key="d5">7</data>
+  <data key="d6">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</edge>
+<edge source="GPT" target="知乎">
+  <data key="d3">6.0</data>
+  <data key="d4">GPT models are applied in Zhihu's question-and-answer platform, assisting users with professional knowledge."|&gt;"application, Q&amp;A platform</data>
+  <data key="d5">6</data>
+  <data key="d6">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</edge>
+<edge source="GPT" target="CSDN">
+  <data key="d3">5.0</data>
+  <data key="d4">GPT models are applied in CSDN's online community, providing programming and IT-related support."|&gt;"application, online community</data>
+  <data key="d5">5</data>
+  <data key="d6">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</edge>
+<edge source="GPT" target="Retrieval-Augmented Generation (RAG)">
+  <data key="d3">9.0</data>
+  <data key="d4">GPT models are combined with RAG techniques to enhance the performance of language models in specific domains."|&gt;"integration, natural language processing</data>
+  <data key="d5">9</data>
+  <data key="d6">chunk-457115d05734fd03b3a9eb4cc5b5f65b</data>
+</edge>
+<edge source="课程语料库" target="大语言模型">
+  <data key="d3">8.0</data>
+  <data key="d4">大语言模型用于处理和生成课程语料库中的内容。</data>
+  <data key="d5">处理，生成</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="课程语料库" target="教材">
+  <data key="d3">8.0</data>
+  <data key="d4">课程语料库包含教材，作为课程内容的一部分。</data>
+  <data key="d5">包含，内容</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="课程语料库" target="讲义">
+  <data key="d3">8.0</data>
+  <data key="d4">课程语料库包含讲义，作为课程内容的一部分。</data>
+  <data key="d5">包含，内容</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="课程语料库" target="习题">
+  <data key="d3">8.0</data>
+  <data key="d4">课程语料库包含习题，作为课程内容的一部分。</data>
+  <data key="d5">包含，内容</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="智能问答系统" target="用户界面">
+  <data key="d3">7.0</data>
+  <data key="d4">智能问答系统通过友好的用户界面，使用户能够方便地输入问题。</data>
+  <data key="d5">用户界面，易用性</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="智能问答系统" target="课程内容">
+  <data key="d3">9.0</data>
+  <data key="d4">课程内容是智能问答系统的基础，用于构建课程语料库。</data>
+  <data key="d5">基础，课程内容</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="智能问答系统" target="解答">
+  <data key="d3">8.0</data>
+  <data key="d4">智能问答系统返回的解答需要确保其准确性和相关性。</data>
+  <data key="d5">准确性，相关性</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="智能问答系统" target="用户体验">
+  <data key="d3">7.0</data>
+  <data key="d4">智能问答系统设计时需要考虑用户体验，以确保用户能够流畅地使用系统。</data>
+  <data key="d5">易用性，用户体验</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="智能问答系统" target="响应时间">
+  <data key="d3">7.0</data>
+  <data key="d4">智能问答系统的性能需要考虑响应时间，以确保快速响应用户。</data>
+  <data key="d5">性能，响应时间</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="智能问答系统" target="LangChain">
+  <data key="d3">8.0</data>
+  <data key="d4">LangChain可能用于构建智能问答系统，提供技术支持。</data>
+  <data key="d5">构建，支持</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="智能问答系统" target="ChatGLM">
+  <data key="d3">8.0</data>
+  <data key="d4">ChatGLM可能用于构建智能问答系统，提供技术支持。</data>
+  <data key="d5">构建，支持</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="模型" target="微调过程">
+  <data key="d3">8.0</data>
+  <data key="d4">模型通过微调过程结合课程相关问题进行调整，以确保生成准确的内容。</data>
+  <data key="d5">微调，准确性</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="微调过程" target="实际课程">
+  <data key="d3">8.0</data>
+  <data key="d4">微调过程需要结合实际课程的问题和解答，以确保模型与课程相关。</data>
+  <data key="d5">相关性，准确性</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="系统评估和优化" target="RAG 的实现">
+  <data key="d3">8.0</data>
+  <data key="d4">系统评估和优化涉及对 RAG 的实现进行分析和改进，以提升系统的表现。</data>
+  <data key="d5">评估，改进</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="系统评估和优化" target="迭代优化">
+  <data key="d3">8.0</data>
+  <data key="d4">系统评估和优化结果用于指导迭代优化，以提高系统性能。</data>
+  <data key="d5">评估，改进</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="系统评估和优化" target="改进建议">
+  <data key="d3">8.0</data>
+  <data key="d4">系统评估和优化结果用于提出改进建议，以提升系统性能。</data>
+  <data key="d5">评估，改进</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="智能问答系统开发" target="系统测试与迭代">
+  <data key="d3">9.0</data>
+  <data key="d4">智能问答系统开发完成后，通过系统测试与迭代进行优化。</data>
+  <data key="d5">开发，迭代</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="毕业论文写作" target="学位论文">
+  <data key="d3">8.0</data>
+  <data key="d4">毕业论文写作是学位论文的撰写过程，用于系统地整理和总结研究成果。</data>
+  <data key="d5">撰写，总结</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="教育领域" target="大模型与 RAG 方法">
+  <data key="d3">7.0</data>
+  <data key="d4">大模型与 RAG 方法在教育领域的应用，旨在推动相关技术的创新和发展。</data>
+  <data key="d5">应用，创新</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="用户测试" target="问答准确率">
+  <data key="d3">8.0</data>
+  <data key="d4">用户测试用于评估问答准确率，以了解系统的性能。</data>
+  <data key="d5">评估，性能</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="用户测试" target="统计分析工具">
+  <data key="d3">8.0</data>
+  <data key="d4">统计分析工具用于分析用户测试中获得的数据。</data>
+  <data key="d5">分析，数据</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="研究假设" target="实证支持">
+  <data key="d3">8.0</data>
+  <data key="d4">实证支持用于验证研究假设，以确认其正确性。</data>
+  <data key="d5">验证，假设</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="学术研究" target="参考框架">
+  <data key="d3">8.0</data>
+  <data key="d4">学术研究用于建立参考框架，以指导研究过程。</data>
+  <data key="d5">指导，框架</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="实证支持" target="案例研究法">
+  <data key="d3">8.0</data>
+  <data key="d4">案例研究法用于提供实证支持，以验证研究假设。</data>
+  <data key="d5">验证，支持</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="应用效果" target="案例研究">
+  <data key="d3">8.0</data>
+  <data key="d4">案例研究用于评估应用效果，以了解系统在实际应用中的表现。</data>
+  <data key="d5">评估，效果</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="挑战" target="案例研究">
+  <data key="d3">8.0</data>
+  <data key="d4">案例研究用于识别挑战，以了解实施智能问答系统时遇到的问题。</data>
+  <data key="d5">识别，问题</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="挑战" target="解决方案">
+  <data key="d3">8.0</data>
+  <data key="d4">解决方案用于解决挑战，以克服实施智能问答系统时的困难。</data>
+  <data key="d5">解决，困难</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="C语言课程问答系统" target="案例研究">
+  <data key="d3">8.0</data>
+  <data key="d4">C语言课程问答系统是案例研究中的一个例子，用于展示系统应用。</data>
+  <data key="d5">展示，应用</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="中邮网院智能客服系统" target="案例研究">
+  <data key="d3">8.0</data>
+  <data key="d4">中邮网院智能客服系统是案例研究中的一个例子，用于展示系统应用。</data>
+  <data key="d5">展示，应用</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="邮政研究" target="案例研究">
+  <data key="d3">8.0</data>
+  <data key="d4">邮政研究是案例研究中引用的期刊，可能包含相关研究成果。</data>
+  <data key="d5">引用，研究</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="现代计算机" target="案例研究">
+  <data key="d3">8.0</data>
+  <data key="d4">现代计算机是案例研究中引用的期刊，可能包含相关研究成果。</data>
+  <data key="d5">引用，研究</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="信息与电脑(理论版)" target="案例研究">
+  <data key="d3">8.0</data>
+  <data key="d4">信息与电脑(理论版)是案例研究中引用的期刊，可能包含相关研究成果。</data>
+  <data key="d5">引用，研究</data>
+  <data key="d6">chunk-ac001068fc7df3b11881c74da0e84540</data>
+</edge>
+<edge source="张丽静" target="杜冬梅">
+  <data key="d3">7.0</data>
+  <data key="d4">张丽静和杜冬梅共同参与基于LLM和RAG的中邮网院智能客服系统研究，属于合作关系。</data>
+  <data key="d5">合作研究</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="张丽静" target="刘庆芳">
+  <data key="d3">7.0</data>
+  <data key="d4">张丽静和刘庆芳共同参与基于LLM和RAG的中邮网院智能客服系统研究，属于合作关系。</data>
+  <data key="d5">合作研究</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="Ward K C" target="Jiameng S">
+  <data key="d3">7.0</data>
+  <data key="d4">Ward K C和Jiameng S共同发表文章《Emerging trends: a gentle introduction to RAG》，属于合作关系。</data>
+  <data key="d5">合作研究</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="Ward K C" target="Richard Y">
+  <data key="d3">7.0</data>
+  <data key="d4">Ward K C和Richard Y共同发表文章《Emerging trends: a gentle introduction to RAG》，属于合作关系。</data>
+  <data key="d5">合作研究</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="刘彦宏" target="崔永瑞">
+  <data key="d3">7.0</data>
+  <data key="d4">刘彦宏和崔永瑞共同发表文章《基于Word2Vec模型与RAG框架的医疗检索增强生成算法》，属于合作关系。</data>
+  <data key="d5">合作研究</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="赵镇宇" target="南昌大学">
+  <data key="d3">7.0</data>
+  <data key="d4">赵镇宇是论文《基于知识图谱检索增强的知识驱动对话模型研究》的作者，南昌大学是其毕业院校，属于作者与毕业院校关系。</data>
+  <data key="d5">作者与毕业院校关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="郝世博" target="史东昊">
+  <data key="d3">7.0</data>
+  <data key="d4">郝世博和史东昊共同发表文章《基于开源RAG架构的校企专利技术合作问答应用研究》，属于合作关系。</data>
+  <data key="d5">合作研究</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="吴建明" target="广州大学">
+  <data key="d3">7.0</data>
+  <data key="d4">吴建明是论文《基于大模型数据优化及检索增强的假新闻检测研究》的作者，广州大学是其毕业院校，属于作者与毕业院校关系。</data>
+  <data key="d5">作者与毕业院校关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="孙维纬" target="山东大学">
+  <data key="d3">7.0</data>
+  <data key="d4">孙维纬是论文《知识检索增强的对话系统研究》的作者，山东大学是其毕业院校，属于作者与毕业院校关系。</data>
+  <data key="d5">作者与毕业院校关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="马龙轩" target="北京邮电大学">
+  <data key="d3">7.0</data>
+  <data key="d4">马龙轩是论文《检索式问答系统中语义关系的计算与评价》的作者，北京邮电大学是其毕业院校，属于作者与毕业院校关系。</data>
+  <data key="d5">作者与毕业院校关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="Yunfan Gao" target="arXiv">
+  <data key="d3">7.0</data>
+  <data key="d4">Yunfan Gao是论文《Retrieval-Augmented Generation for Large Language Models: A Survey》的作者，arXiv是其发表的学术期刊，属于作者与发表期刊关系。</data>
+  <data key="d5">作者与发表期刊关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="lizhe2004" target="GitHub">
+  <data key="d3">7.0</data>
+  <data key="d4">lizhe2004是GitHub仓库Awesome-LLM-RAG-Application的创建者，GitHub是其创建仓库的平台，属于作者与平台关系。</data>
+  <data key="d5">作者与平台关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="NirDiamant" target="GitHub">
+  <data key="d3">7.0</data>
+  <data key="d4">NirDiamant是GitHub仓库RAG_Techniques的创建者，GitHub是其创建仓库的平台，属于作者与平台关系。</data>
+  <data key="d5">作者与平台关系</data>
+  <data key="d6">chunk-8970bd8a17e748042cb5c08933e67b74</data>
+</edge>
+<edge source="测试文件" target="category">
+  <data key="d3">8.0</data>
+  <data key="d4">测试文件 is a category itself, indicating its nature as a testing document.</data>
+  <data key="d5">category definition, testing</data>
+  <data key="d6">chunk-9d0823c161b688225de95cf7ab0afb98</data>
+</edge>
+<edge source="这是" target="测试">
+  <data key="d3">6.0</data>
+  <data key="d4">The phrase '这是测试' could be related to the event of testing, with '这是' introducing or pointing to the event '测试'."|&gt;"introduction, event</data>
+  <data key="d5">6</data>
+  <data key="d6">chunk-9d0823c161b688225de95cf7ab0afb98</data>
+</edge>
+<edge source="这是" target="文件">
+  <data key="d3">5.0</data>
+  <data key="d4">The phrase '这是测试文件' combines to indicate the event of testing through the medium of a document, thus relating '这是' to the category '文件'."|&gt;"medium, category</data>
+  <data key="d5">5</data>
+  <data key="d6">chunk-9d0823c161b688225de95cf7ab0afb98</data>
+</edge>
+</graph></graphml>

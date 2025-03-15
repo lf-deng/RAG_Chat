@@ -31,8 +31,8 @@ def set_welcome_message(message: str):
 
 def reset_welcome_state():
     """重置欢迎消息状态，用于清除聊天记录后"""
-    # 这个函数保留用于接口兼容，实际上不需要做任何事情
-    pass
+    global welcome_message
+    welcome_message = "请先选择一个知识库！"
 
 
 def get_welcome_message():
